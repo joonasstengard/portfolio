@@ -23,7 +23,7 @@ const Service = () => {
             Id:"1",
             sIcon:"fi flaticon-web-design",
             heading:"Frontend development",
-            Simg1:'images/service-single/frontend/hpkuvaportfolioo.png',
+            Simg1:'https://i.imgur.com/F1zNM5C.png',
             Simg2:'images/service-single/frontend/img-2.jpg',
             Simg3:'images/service-single/frontend/img-3.jpg',
             doc: "I am proficient in developing frontend solutions for dynamic web apps and other software projects. "
@@ -35,7 +35,7 @@ const Service = () => {
             Id:"2",
             sIcon:"fi flaticon-laptop",
             heading:"Backend development",
-            Simg1:'images/service-single/backend/backendkuvaport.png',
+            Simg1:'https://i.imgur.com/eYGBKrA.png',
             Simg2:'images/service-single/backend/img-2.jpg',
             Simg3:'images/service-single/backend/img-3.jpg',
             doc:"As a programming enthusiast I enjoy writing and structuring backend code with languages such as Java, Spring, Node & Express. "
@@ -48,7 +48,7 @@ const Service = () => {
             Id:"3",
             sIcon:"fi flaticon-paint-palette",
             heading:"Software Design",
-            Simg1:'images/service-single/design/figmakuvaportfolioo.png',
+            Simg1:'https://i.imgur.com/VuHoBgs.png',
             Simg2:'images/service-single/design/img-2.jpg',
             Simg3:'images/service-single/design/img-3.jpg',
             doc:"My education has given me a strong background in professional software & UX design. My thesis topic was on UX design for a large Finnish workforce company. "

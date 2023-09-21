@@ -9,7 +9,7 @@ class Footer extends Component {
                         <div className="col-12">
                             <div className="footer-image">
                                 <a to="/home">
-                                    <img src="images/jsLogo.png" alt=""/>
+                                    <img src="https://i.imgur.com/GiKZooh.png" alt=""/>
                                 </a>
                             </div>
                         </div>

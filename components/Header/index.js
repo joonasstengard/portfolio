@@ -35,7 +35,7 @@ class Header extends Component {
                             <ul className="nav navbar-nav">
                                 <div className="navbar-header">
                                     <Link className="navbar-brand" to="home">
-                                        <img src='images/jsLogo.png' alt="" />
+                                        <img src='https://i.imgur.com/GiKZooh.png' alt="" />
                                     </Link>
                                 </div>
                                 <li className="home">
