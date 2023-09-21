@@ -1,5 +1,6 @@
 import React from 'react'
 import DefaultModal from '../AboutModal'
+import Image from 'next/image';
 
 
 const About = (props) => {
@@ -11,7 +12,13 @@ const About = (props) => {
                     <div className="col-lg-5 col-md-12 col-12">
                         <div className="tp-about-wrap">
                         <div className="tp-about-img">
-                            <img src="/images/aboutkuva.png" alt=""/>
+                            {/*<img src="/images/aboutkuva.png" alt=""/>*/}
+                            <Image
+                                src="/images/aboutkuva.png"
+                                alt="My Image"
+                                width={504}
+                                height={650}
+                            />
                         </div>
                         </div>
                     </div>
