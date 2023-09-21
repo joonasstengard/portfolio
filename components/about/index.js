@@ -1,6 +1,5 @@
 import React from 'react'
 import DefaultModal from '../AboutModal'
-import Image from 'next/image';
 
 
 const About = (props) => {
