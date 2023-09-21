@@ -29,7 +29,7 @@ const Portfolio = () => {
         role:'Programming & Design',
         date:'Spring 2023',
         videosId:'LUSa3yRTB9A',
-        pImg1:'images/portfolio/proj1/studymoduleportfkuva.png',
+        pImg1:'/images/portfolio/proj1/studymoduleportfkuva.png',
         pImg2:'images/portfolio/proj1/seniortaskport.png',
         pImg3:'images/portfolio/proj1/aspquizport.png',
         vedio:"",
