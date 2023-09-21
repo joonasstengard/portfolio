@@ -13,12 +13,13 @@ const About = (props) => {
                         <div className="tp-about-wrap">
                         <div className="tp-about-img">
                             {/*<img src="/images/aboutkuva.png" alt=""/>*/}
-                            <Image
-                                src="/images/aboutkuva.png"
+                            <img src="https://i.imgur.com/0ETW3gK.png" alt=""/>
+                            {/*<Image
+                                src="https://i.imgur.com/0ETW3gK.png"
                                 alt="My Image"
                                 width={504}
                                 height={650}
-                            />
+    />*/}
                         </div>
                         </div>
                     </div>
