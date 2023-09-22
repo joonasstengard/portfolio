@@ -41,7 +41,7 @@ const Service = () => {
             doc:"As a programming enthusiast I enjoy writing and structuring backend code with languages such as Java, Spring, Node & Express. "
             +"I have also completed courses in other backend languages and technologies, such as C# and Python. As a hobby, I have developed large scale projects for Skyrim using the programming language Papyrus. "
             +"My education has given me proficiency in working with databases and related technologies, including database design, querying and optimization. These technologies include MongoDB and MySQL. ",
-            des:'Proficient in backend technologies such as NodeJS, Express, Java, and working with databases.'
+            des:'Proficient in backend technologies such as NodeJS, Express, Java and MongoDB.'
             
         },
         {
