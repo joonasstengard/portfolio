@@ -74,7 +74,7 @@ professional. Joonas has a pleasant character, and he is highly reliable.</p>
                                         <div className="testimonial-content">
                                             <h4>Tuuli Pitkonen</h4>
                                             <span>Helmiprinsessa, Owner</span>
-                                            <p>Joonas worked with us to create our website and I'm very pleased with the results.</p>
+                                            <p>Joonas worked with us to create our website and we are very pleased with the results.</p>
                                         </div>
                                         <div className="testimonial-icon">
                                             <i className="fi flaticon-right-quote"></i>
