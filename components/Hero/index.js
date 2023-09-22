@@ -34,7 +34,7 @@ class Hero extends Component {
                     <div className="overlay"></div>
                     <ul>
                         <li><a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/"><i className="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" rel="noopener noreferrer" href="www.linkedin.com/in/joonas-s-420b24266"><i className="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/joonas-s-420b24266"><i className="fa fa-linkedin"></i></a></li>
                     </ul>
                 </div>
                 <div className="white_svg">
