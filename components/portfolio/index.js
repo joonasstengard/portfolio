@@ -142,7 +142,7 @@ const Portfolio = () => {
                                               </div>
                                               <div className="tp-protfolio-text">
                                                   <h2>{port.heading}</h2>
-                                                  <span>{port.subHeading}</span>
+                                                  <h4 className="portf-subhead">{port.subHeading}</h4>
                                                   <button  onClick={()=> handleClickOpen(port)}>View Work</button>
                                               </div>
                                           </div>
@@ -180,12 +180,12 @@ const Portfolio = () => {
                         
                         <div >
                             <h1 className="tp-portf-book-title">SSR in Modern React Development</h1>
-                            <p>Server-side rendering in Modern React Development is an e-textbook I have published in the field of web development & React.js as a passion project. 
-                            I am a firm believer in the future of server-side rendering in the web development space. I consider pure CSR approaches for modern React development outdated. 
+                            <p>Server-Side Rendering in Modern React Development is an e-textbook I have published in the field of web development & React.js as a passion project of mine. 
+                            I am a firm believer in the future of server-side rendering in the web development space, I consider pure CSR approaches for modern React development outdated. 
                                 </p>
                             <p>
                                 The book features research on the the subject and covers topics such as: comparison between SSR and CSR, the hydration approach, Next.js for SSR,
-                                code-splitting, caching, critical CSS, tree shaking and other advanced React SSR optimization techniques, SSR in practice, case studies, code samples and more.
+                                code-splitting, caching, critical CSS, tree shaking and other advanced React SSR optimization techniques, SSR in practice, case studies and code samples.
                                 </p>
                             <a href="/SSR-in-Modern-React-Development.pdf" download>
                                 Download book here

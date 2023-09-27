@@ -27,9 +27,9 @@ const About = (props) => {
                         
                         <div className="tp-about-icon-content">
                             <h2>My passion is programming</h2>
-                            <p>While I may be a recent graduate, I have been proactive in gaining professional experience in the field. I have done Full Stack software development work for EU projects & Finnish companies.
+                            <p>While I may be a recent graduate, I have been proactive in gaining professional experience in the field. I have done software development work for EU projects & Finnish companies as a freelancer.
                                 </p>
-                            <p>My educational background has given me a solid foundation in software development, project management and business acumen. I'm eager to learn more and develop myself as a professional software developer.
+                            <p>My educational background, with a BBA degree in data processing, has given me a solid foundation in software development, programming, project management and business acumen. I'm eager to learn more and develop myself as a professional software developer.
                                 </p>
                                 <p>If you are looking for a highly motivated software developer, hopefully I can be a valuable asset to your company or project.
                             </p>

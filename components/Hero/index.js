@@ -22,6 +22,7 @@ class Hero extends Component {
                                         <p>Software development. Programming. Design.<br/>
                                             Web applications, websites & enterprise software.</p>
                                     </div>
+                                    
                                     {/*<div className="btns">
                                         <AnchorLink href="#contact" className="template-btn go-contact-area">Contact Me</AnchorLink>
                                     </div>*/}

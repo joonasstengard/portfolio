@@ -29,7 +29,7 @@ const Service = () => {
             doc: "I am proficient in developing frontend solutions for dynamic web apps and other software projects. "
             +"My frontend skill set includes technologies such as Javascript, ReactJS and NextJS. "
             +"I am experienced in creating detailed CSS code by hand or working with CSS frameworks such as Tailwind and Bootstrap.",
-            des:'Proficient in frontend technologies such as ReactJS, NextJS, CSS & Tailwind.'
+            des:'ReactJS, NextJS, CSS & Tailwind.'
         },
         {
             Id:"2",
@@ -41,7 +41,7 @@ const Service = () => {
             doc:"As a programming enthusiast I enjoy writing and structuring backend code, especially with Java SE & Spring and NodeJS & Express. "
             +"I have also completed courses in other backend languages and technologies. As a hobby, I have developed sizeable software projects for Skyrim using the OOP programming language Papyrus. "
             +"My education has given me proficiency in working with databases and related technologies, including database design, querying and optimization. These technologies include MongoDB and MySQL. ",
-            des:'Proficient in backend technologies such as NodeJS, Express, Java and MongoDB.'
+            des:'Java, NodeJS, Express and databases.'
             
         },
         {
@@ -53,7 +53,7 @@ const Service = () => {
             Simg3:'images/service-single/design/img-3.jpg',
             doc:"My education has given me a strong background in professional software & UX design. My thesis topic was on UX design for a large Finnish workforce company. "
             +"Through my curriculum I am highly familiar with modern design philosophies such as Nielsen's Heuristics and designing accessible software. I'm also experienced in creating prototypes and collaborating in tools such as Figma and Miro and creating graphical elements for aesthetic web design using Photoshop and other relevant tools.",
-            des:'Proficient in Software & UX design, designing graphical elements and prototyping.'
+            des:'UX & UI design, graphics and prototyping.'
         }
     ]
 
@@ -67,6 +67,15 @@ const Service = () => {
                         <h2>My Skill set</h2>
                     </div>
                 </div>
+                {/*<div className="hero-desc-langs section-title section-title2 text-center pb-5 mb-1">
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="50"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="50"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="50"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg" width="50"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="50"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="50"/>
+                                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="50"/>
+                </div>*/}
                 <div className="row">
                     {service.map((serv, srv) => (
                         <div className="col-xl-4 col-lg-6 col-md-6 col-sm-12" key={srv}>
