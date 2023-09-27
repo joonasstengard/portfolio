@@ -27,9 +27,9 @@ const Service = () => {
             Simg2:'images/service-single/frontend/img-2.jpg',
             Simg3:'images/service-single/frontend/img-3.jpg',
             doc: "I am proficient in developing frontend solutions for dynamic web apps and other software projects. "
-            +"My frontend skill set includes technologies such as Javascript, ReactJS, NextJS and TypeScript. "
+            +"My frontend skill set includes technologies such as Javascript, ReactJS and NextJS. "
             +"I am experienced in creating detailed CSS code by hand or working with CSS frameworks such as Tailwind and Bootstrap.",
-            des:'Proficient in frontend technologies such as ReactJS, NextJS, TypeScript, CSS & Tailwind.'
+            des:'Proficient in frontend technologies such as ReactJS, NextJS, CSS & Tailwind.'
         },
         {
             Id:"2",
@@ -38,8 +38,8 @@ const Service = () => {
             Simg1:'https://i.imgur.com/eYGBKrA.png',
             Simg2:'images/service-single/backend/img-2.jpg',
             Simg3:'images/service-single/backend/img-3.jpg',
-            doc:"As a programming enthusiast I enjoy writing and structuring backend code with languages such as Java SE & Spring and NodeJS & Express. "
-            +"I have also completed courses in other backend languages and technologies, such as C# and Python. As a hobby, I have developed sizeable software projects for Skyrim using the programming language Papyrus. "
+            doc:"As a programming enthusiast I enjoy writing and structuring backend code, especially with Java SE & Spring and NodeJS & Express. "
+            +"I have also completed courses in other backend languages and technologies. As a hobby, I have developed sizeable software projects for Skyrim using the OOP programming language Papyrus. "
             +"My education has given me proficiency in working with databases and related technologies, including database design, querying and optimization. These technologies include MongoDB and MySQL. ",
             des:'Proficient in backend technologies such as NodeJS, Express, Java and MongoDB.'
             
@@ -52,7 +52,7 @@ const Service = () => {
             Simg2:'images/service-single/design/img-2.jpg',
             Simg3:'images/service-single/design/img-3.jpg',
             doc:"My education has given me a strong background in professional software & UX design. My thesis topic was on UX design for a large Finnish workforce company. "
-            +"I am highly familiar with modern design philosophies such as Nielsen's Heuristics and designing accessible software. I'm also experienced in creating prototypes and collaborating in tools such as Figma and Miro and creating graphical elements for aesthetic web design using Photoshop and other relevant tools.",
+            +"Through my curriculum I am highly familiar with modern design philosophies such as Nielsen's Heuristics and designing accessible software. I'm also experienced in creating prototypes and collaborating in tools such as Figma and Miro and creating graphical elements for aesthetic web design using Photoshop and other relevant tools.",
             des:'Proficient in Software & UX design, designing graphical elements and prototyping.'
         }
     ]

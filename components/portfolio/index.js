@@ -23,8 +23,8 @@ const Portfolio = () => {
   const portfolio = [
       {
         Id:"1",
-        heading:"SAFE Study Module",
-        subHeading:"EU SAFE Online course",
+        heading:"",
+        subHeading:"EU SAFE Study Module",
         authorName:'Project SAFE (EUSAFE)',
         role:'Programming & Design',
         date:'Spring 2023',
@@ -39,8 +39,8 @@ const Portfolio = () => {
     },
       {
         Id:"2",
-        heading:"SAFE Travel Game",
-        subHeading:"EU SAFE Web app",
+        heading:"",
+        subHeading:"EU SAFE Travel Game",
         authorName:'Project SAFE (EUSAFE)',
         role:'Programming',
         date:'Summer 2023',
@@ -55,8 +55,8 @@ const Portfolio = () => {
     },
       {
         Id:"3",
-        heading:"Helmiprinsessa",
-        subHeading:"Jewelry & Design website",
+        heading:"",
+        subHeading:"Helmiprinsessa website",
         authorName:'Helmiprinsessa',
         role:'Programming & Design',
         date:'Summer 2023',
@@ -71,8 +71,8 @@ const Portfolio = () => {
     },
       {
         Id:"4",
-        heading:"MOTION Website",
-        subHeading:"EU Tourismotion",
+        heading:"",
+        subHeading:"EU Motion Website",
         authorName:'Project MOTION',
         role:'Development assistant',
         date:'Spring 2023',
@@ -87,7 +87,7 @@ const Portfolio = () => {
     },
       {
         Id:"5",
-        heading:"Portfolio",
+        heading:"",
         subHeading:"My portfolio website",
         authorName:'-',
         role:'Programming & Design',
@@ -103,8 +103,8 @@ const Portfolio = () => {
     },
       {
         Id:"6",
-        heading:"Hobby projects",
-        subHeading:"Programming projects",
+        heading:"",
+        subHeading:"Hobby projects",
         authorName:'-',
         role:'-',
         date:'2017->',
@@ -153,7 +153,50 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
+                <div className="col-12">
+                    <div className="section-title text-center mt-5 pt-5">
+                        <h2>My books</h2>
+                    </div>
+                </div>
             </div>
+            <div className="container">
+                <div className="row align-items-center">
+                    <div className="col-lg-5 col-md-12 col-12">
+                        <div className="tp-about-wrap">
+                        <div className="tp-book-img">
+                            {/*<img src="/images/aboutkuva.png" alt=""/>*/}
+                            <img src="https://i.imgur.com/fDUgKyB.png" alt=""/>
+                            {/*<Image
+                                src="https://i.imgur.com/0ETW3gK.png"
+                                alt="My Image"
+                                width={504}
+                                height={650}
+    />*/}
+                        </div>
+                        </div>
+                    </div>
+                    <div className="col-lg-7 col-md-12 col-12">
+                        <div className="tp-portf-text">
+                        
+                        <div >
+                            <h1 className="tp-portf-book-title">SSR in Modern React Development</h1>
+                            <p>Server-side rendering in Modern React Development is an e-textbook I have published in the field of web development & React.js as a passion project. 
+                            I am a firm believer in the future of server-side rendering in the web development space. I consider pure CSR approaches for modern React development outdated. 
+                                </p>
+                            <p>
+                                The book features research on the the subject and covers topics such as: comparison between SSR and CSR, the hydration approach, Next.js for SSR,
+                                code-splitting, caching, critical CSS, tree shaking and other advanced React SSR optimization techniques, SSR in practice, case studies, code samples and more.
+                                </p>
+                            <a href="/SSR-in-Modern-React-Development.pdf" download>
+                                Download book here
+                            </a>
+                            {/*<DefaultModal buttonClass={'template-btn'}/>*/}
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                    
             <PortfolioSingle open={open} onClose={handleClose} title={state.heading} doc={state.doc} doc2={state.doc2} doc3={state.doc3} image1={state.pImg1} image2={state.pImg2} image3={state.pImg3} authorName={state.authorName} videosId={state.videosId} value={state.value} date={state.date} role={state.role}/>
 
             <div className="white_svg svg_white">
