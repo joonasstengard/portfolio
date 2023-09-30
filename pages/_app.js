@@ -13,10 +13,10 @@ function MyApp({ Component, pageProps }) {
     <div>
       <Head>
         <title>Joonas Stengård portfolio</title>
-        <link rel="shortcut icon" href="/images/favicon.ico" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png"/>
-        <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png"/>
+        <link rel="shortcut icon" href="https://pasteboard.co/nzamFL2RXwLV.x-icon" />
+        <link rel="apple-touch-icon" sizes="180x180" href="https://i.imgur.com/no2sAQe.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="https://i.imgur.com/7hdO0pb.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="https://i.imgur.com/lj6qru6.png"/>
       </Head>
       <Analytics />
       <Component {...pageProps} />
