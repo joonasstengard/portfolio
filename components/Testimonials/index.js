@@ -54,7 +54,7 @@ class Testimonial extends Component {
                                             <img src='images/testimonial/1.jpg' alt="" />
         </div>*/}
                                         <div className="testimonial-content">
-                                            <h4>Kristina Henriksson</h4>
+                                            <h4>Kristina H.</h4>
                                             <span>Project Coordinator SAFE / MOTION</span>
                                             <p>Joonas has proved to be an invaluable member of the project teams. He has worked with high motivation, 
 diligence, and preciseness. Furthermore, he works with a proactive approach, and the quality of his work is 
@@ -72,7 +72,7 @@ professional. Joonas has a pleasant character, and he is highly reliable.</p>
                                             <img src='images/testimonial/2.jpg' alt="" />
                                         </div>*/}
                                         <div className="testimonial-content">
-                                            <h4>Tuuli Pitkonen</h4>
+                                            <h4>Tuuli P.</h4>
                                             <span>Helmiprinsessa, Owner</span>
                                             <p>Joonas worked with us to create our website and we are very pleased with the results.</p>
                                         </div>
