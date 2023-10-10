@@ -72,7 +72,7 @@ const Portfolio = () => {
       {
         Id:"4",
         heading:"",
-        subHeading:"EU Motion Website",
+        subHeading:"EU Motion website",
         authorName:'Project MOTION',
         role:'Project assistant',
         date:'Spring 2023',
@@ -81,25 +81,27 @@ const Portfolio = () => {
         pImg2:'https://i.imgur.com/DBzOujr.png',
         pImg3:'https://i.imgur.com/rQK0Iaq.png',
         vedio:"",
-        doc:'I participated in developing & maintaining the website of project MOTION. When working with them I gained valuable real-life work experience in developing, maintaining & testing web software, including participating in meetings and collaborating with people without an IT background in software projects.',
+        doc:'I participated in developing & maintaining the website of Project MOTION. When working with them I gained valuable real-life work experience in developing, maintaining & testing web software, including participating in meetings and collaborating with people without an IT background in software projects.',
         doc2:'',
         doc3:''
     },
       {
         Id:"5",
         heading:"",
-        subHeading:"My portfolio website",
+        subHeading:"Skyrim Crash Decoder",
         authorName:'-',
         role:'Programming & Design',
-        date:'2023',
+        date:'2022-2023',
         videosId:'LUSa3yRTB9A',
-        pImg1:'https://i.imgur.com/FeDIdAA.png',
-        pImg2:'https://i.imgur.com/9hGqNEX.png',
-        pImg3:'https://i.imgur.com/Z1ZKKGZ.png',
+        pImg1:'https://i.imgur.com/GhtOcWB.png',
+        pImg2:'https://i.imgur.com/ztA5TOP.png',
+        pImg3:'https://i.imgur.com/5ok20GT.png',
         vedio:"",
-        doc:'My portfolio website is made using NextJS, ReactJS, CSS & Tailwind and Photoshop.',
-        doc2:'',
-        doc3:''
+        doc:'www.SkyrimCrashDecoder.com is one of my most popular applications, with a monthly user count in the hundreds.',
+        doc2:'Skyrim is a computer game that generates a crash log for the user when it crashes. The crash logs point to the cause of the crash, but they are extremely difficult to interpret for the average user. The logs consist of thousands of lines of machine generated text. '
+        +'My tool, Skyrim Crash Decoder, aims to be a simple-to-use assistant for deciphering the contents of those logs. Under the simplistic hood there is a complex JavaScript algorithm deciphering the logs. ',
+        doc3:'After receiving the user input, frst the tool separates the log into three parts, then it searches for relevant primary keywords from those sections that can hint at the cause of the crash. The primary keywords are on a list of priority, for example if the tool finds that a record was deleted from the game, it will consider that a high priority issue. Then, based on the keywords found and on their priority, the tool runs additional conditionals on the log searching for secondary keywords related to the primary keyword. As an example, if the tool found that a record was deleted from the game, it will proceed to search for what was deleted, relying on the secondary keywords. '
+        +'And in the end it produces a readable and comprehensible report of the issue behind the crash, so that the user will gain information on how to prevent the crash and fix their Skyrim installation. '
     },
       {
         Id:"6",
@@ -114,9 +116,9 @@ const Portfolio = () => {
         pImg3:'https://i.imgur.com/MR0CyuL.png',
         vedio:"",
         doc:'I have worked on many types of projects on my own time while completing my degree to practice and to learn new skills in the field.',
-        doc2:'Skyrim mods that I have programmed have an userbase of 10,000+. I develop Skyrim mods using Papyrus, which is an object-oriented programming language similar to Java.',
+        doc2:'Skyrim mods that I have programmed have an userbase of 15,000+. I develop Skyrim mods using Papyrus, which is an object-oriented programming language similar to Java.',
         doc3:'ExBFM started as a Java project with a Java Swing GUI, later converted into a web app with a Java Spring backend and React frontend. It is a football simulator type of game with many kinds of AI features programmed by me from scratch, ie for commentary and matches, player market and attributes, satisfaction, training, messages, simulation etc.'
-    },
+    }
  
   ]
 
@@ -151,6 +153,12 @@ const Portfolio = () => {
                                   ))}
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="col-12">
+                    <div className="text-center pt-5">
+                        <p>Above you can find information about some of the projects I've worked on. <br />
+                        This portfolio website itself is made using Next.js, React.js, CSS & Tailwind.</p>
                     </div>
                 </div>
                 <div className="col-12">
