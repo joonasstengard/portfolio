@@ -53,7 +53,7 @@ const Service = () => {
             Simg3:'images/service-single/design/img-3.jpg',
             doc:"My education has given me a strong background in professional software & UX design. My thesis topic was on UX design for a large Finnish workforce company. "
             +"Through my curriculum I am highly familiar with modern design philosophies such as Nielsen's Heuristics and designing accessible software. I'm also experienced in creating prototypes and collaborating in tools such as Figma and Miro and creating graphical elements for aesthetic web design using Photoshop and other relevant tools.",
-            des:'UX & UI design, graphics and prototyping.'
+            des:'UX design, graphics and prototyping.'
         }
     ]
 
